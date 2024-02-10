@@ -1,0 +1,300 @@
+@media only screen and (max-width: 900px) {
+  body {
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+  }
+  .portfolio,
+  .pageone {
+    background-image: url('/images/wp7043567.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .portfolio {
+    background-size: contain;
+    background-position: center;
+  }
+}
+
+.pageone {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  min-height: 30vh;
+  background-image: url('../images/wp7043567.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.nav1 {
+  width: 100%;
+  padding: 2%;
+}
+
+.nav1 ul {
+  display: flex;
+  list-style: none;
+  gap: 4em;
+  letter-spacing: 4px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+ul li {
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+}
+
+.nav1 ul :hover {
+  opacity: 80%;
+  text-decoration: underline;
+  transition: 0.9s;
+}
+
+.nav1 li span {
+  text-decoration: underline;
+}
+
+.pageone h1 {
+  color: white;
+  margin: 10px auto;
+  max-width: 500px;
+  width: 100%;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+.pageone h1 span {
+  color: rgb(14, 14, 131);
+  background-color: rgba(255, 255, 255, 0.64);
+}
+
+@media only screen and (max-width: 600px) {
+  .pageone h1 {
+    font-size: 24px;
+  }
+}
+
+.pageonecentral {
+  display: flex;
+  justify-content: center;
+  color: white;
+  padding: 10%;
+}
+
+.imageofme {
+  max-width: 350px;
+  width: 100%;
+  border-radius: 50%;
+  background-color: rgba(227, 227, 227, 0.314);
+}
+
+.imageofme:hover {
+  transform: scale(1.2);
+  transition: 0.2s;
+  background-color: rgba(227, 227, 227, 0.095);
+}
+
+@media only screen and (max-width: 900px) {
+  .imageofme {
+    max-width: 60%;
+    height: auto;
+  }
+}
+
+.rightpageone {
+  margin: 70px auto;
+  max-width: 400px;
+  width: 100%;
+}
+
+.rightpageone h3 {
+  font-size: 20px;
+  font-weight: lighter;
+  font-family: 'Times New Roman', Times, serif;
+  letter-spacing: 3px;
+}
+
+.rightpageone h2 {
+  letter-spacing: 2px;
+}
+
+.pageonebottom {
+  max-width: 100px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 3em;
+}
+
+.pageonebottom img {
+  max-width: 60px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.pageonebottom img:hover {
+  transform: scale(1.2);
+}
+
+@media only screen and (max-width: 600px) {
+  .nav1 ul {
+    gap: 1em;
+  }
+}
+.pagetwo {
+  margin: 0px auto;
+  padding: 0;
+  max-width: 1200px;
+  width: 100%;
+  background-image: url('../images/wp7043567.webp');
+  background-size: cover;
+  color: white;
+  padding-bottom: 5%;
+  height: 160vh;
+  background-repeat: no-repeat;
+}
+
+.pagetwo-center {
+  padding: 5%;
+  margin: 0 auto;
+  font-size: 20px;
+  text-align: center;
+}
+
+.aboutme {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.pagetwo h3 {
+  color: #82b9ef;
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  letter-spacing: 0.9em;
+  cursor: pointer;
+}
+
+.pagetwo h3::before {
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 0;
+  color: #ffffff;
+  border-right: 2px solid #1bb0b0;
+  transition: width 0.4s ease-out;
+}
+
+.pagetwo h3:hover::before {
+  width: 100%;
+}
+
+.pagetwo h4 {
+  color: #f4e5e5;
+  padding: 10px;
+  font-style: italic;
+  cursor: pointer;
+}
+
+.pagetwo p {
+  background-color: rgba(255, 255, 255, 0.127);
+  margin: 0;
+  line-height: 1.4em;
+  color: rgb(235, 227, 227);
+  border: 1px solid rgba(101, 101, 178, 0.629);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.education-container {
+  position: relative;
+  text-align: left;
+  max-width: 600px;
+  margin: 20px;
+}
+
+.education-text {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-55%, -50%);
+  z-index: 1;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.education-image {
+  width: 200px;
+  height: 40vh;
+  display: block;
+}
+
+.specialization-container h4 {
+  padding: 10px;
+}
+
+.specialization-container {
+  float: right;
+  max-width: 700px;
+  margin-left: 20px;
+}
+
+.specialization-text {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  position: relative;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.specialization-image {
+  width: 200px;
+  height: auto;
+  display: block;
+}
+
+.skills-container {
+  float: left;
+  max-width: 700px;
+  margin: 20px;
+  position: relative;
+  font-size: 20px;
+}
+
+.skills-text {
+  text-shadow: 2px 2px 4px rgba(255, 252, 252, 0.7);
+  text-align: center;
+  z-index: 1;
+  text-align: center;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+@media only screen and (max-width: 900px) {
+  .pagetwo h3,
+  .pagetwo h4,
+  pagetwo p {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .education-image,
+  .specialization-image {
+    max-width: 150px;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .skills-text {
+    font-size: 16px;
+  }
+}
